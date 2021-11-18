@@ -1,0 +1,30 @@
+:root {
+  --scissors: hsl(39, 89%, 49%);
+}
+
+body {
+  background: radial-gradient(rgb(31, 55, 86), hsl(237, 49%, 15%));
+}
+.contenedor {
+  display: flex;
+  width: 500px;
+  height: 500px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.radio {
+  display: flex;
+  width: 20%;
+  height: 20%;
+  background: white;
+  border-radius: 50%;
+  border: var(--scissors) 5px solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.Scissors {
+  background: hsl(39, 89%, 49%) to hsl(40, 84%, 53%);
+}
