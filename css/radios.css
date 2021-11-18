@@ -1,0 +1,32 @@
+.radio-scissors {
+  display: flex;
+  width: 30%;
+  height: 30%;
+  background: white;
+  border-radius: 50%;
+  border: var(--scissors) 10px solid;
+  justify-content: center;
+  align-items: center;
+}
+.radio-papers {
+  display: flex;
+  width: 30%;
+
+  background: white;
+  border-radius: 50%;
+  border: var(--papers) 10px solid;
+  justify-content: center;
+  margin-right: 10%;
+}
+
+.radio-rock {
+  display: flex;
+  width: 35%;
+  height: 35%;
+  background: white;
+  border-radius: 50%;
+  border: var(--rock) 10px solid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;
+}

@@ -1,30 +1,70 @@
 :root {
   --scissors: hsl(39, 89%, 49%);
+  --papers: rgb(72, 101, 244);
+  --rock: hsl(349, 71%, 52%);
 }
 
 body {
-  background: radial-gradient(rgb(31, 55, 86), hsl(237, 49%, 15%));
+  background: radial-gradient(rgb(31, 55, 86), rgb(20, 21, 57));
 }
 .contenedor {
+  margin-top: 30%;
   display: flex;
-  width: 500px;
-  height: 500px;
-
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.radio {
-  display: flex;
-  width: 20%;
-  height: 20%;
-  background: white;
-  border-radius: 50%;
-  border: var(--scissors) 5px solid;
   justify-content: center;
-  align-items: center;
+
+  flex-wrap: wrap;
 }
 
 .Scissors {
   background: hsl(39, 89%, 49%) to hsl(40, 84%, 53%);
+}
+
+.col {
+  display: flex;
+  width: 80%;
+  height: 70px;
+  padding: 3%;
+  margin-left: 5%;
+  justify-content: space-between;
+  border: rgb(96, 110, 133) 2px solid;
+  border-radius: 13px;
+}
+.col p {
+  width: 100%;
+  color: hsl(210, 25%, 98%);
+  font-family: "Barlow Semi Condensed";
+}
+
+.rowScoreP {
+}
+.cardScore {
+  padding: 0px;
+  background: white;
+  border-radius: 5px;
+  width: 40%;
+  height: 70px;
+  text-align: center;
+  margin: 0px;
+}
+.cardScore p {
+  color: hsl(229, 64%, 46%);
+  margin-top: -1%;
+}
+
+.cardScore h4 {
+  margin-top: -15%;
+  font-size: 40px;
+  color: hsl(229, 25%, 31%);
+}
+
+.rules {
+  margin-top: 30%;
+  text-align: center;
+  margin-left: 20%;
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  background: none;
+  color: hsl(0, 0%, 100%);
+  border: rgb(96, 110, 133) 2px solid;
 }
